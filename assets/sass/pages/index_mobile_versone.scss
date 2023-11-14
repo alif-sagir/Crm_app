@@ -1,0 +1,204 @@
+// form_area start
+.form_area {
+    border: $border;
+    padding: 0px 20px;
+    background-color: transparent;
+    // z-index: 1;
+    // position: relative;
+
+    .form_area_content {
+        border: $border;
+        background-color: $white;
+        padding: 20px;
+        border-radius: 10px 10px 0px 0px;
+        margin-top: -70px;
+        position: relative;
+        z-index: 1;
+
+        &::after {
+            content: "";
+            width: 200px;
+            height: 250px;
+            border: 50px solid #173a5621;
+            // background-color: #64c98563;
+            position: fixed;
+            bottom: -66px;
+            right: -70px;
+            // border-radius: 50%;
+        }
+        // form start
+        form {
+            border: $border;
+            gap: 18px;
+            display: grid;
+
+            .input_form_text {
+                // border: $border;
+                width: 100%;
+                border: 1px solid $brand_color_deep;
+                font-size: 12px;
+                font-family: $font_Regular;
+                color: $brand_color_light;
+                padding: 5px 10px;
+                border-radius: 3px;
+                outline: 0;
+            }
+            // .edit_color_1 {
+            //     color: $violet;
+            //     border-color: $violet;
+            // }
+            // .edit_color_2 {
+            //     color: $blue;
+            //     border-color: $blue;
+            // }
+            .item_area {
+                border: $border;
+                .item_area_title {
+                    border: $border;
+                    margin-bottom: 8px;
+                    .item_title_text {
+                        border: $border;
+                        font-family: $font_SemiBold;
+                        font-size: 14px;
+                        line-height: 14px;
+                        color: $brand_color_deep;
+                        border-bottom: 1px solid $brand_color_deep;
+                        padding-bottom: 8px;
+                    }
+                    // .division_item_title_text {
+                    //     color: $green;
+                    //     border-color: $green;
+                    // }
+                    // .topics_item_title_text {
+                    //     color: $blue;
+                    //     border-color: $blue;
+                    // }
+                    // .statement_item_title_text {
+                    //     color: $violet;
+                    //     border-color: $violet;
+                    // }
+                }
+                .item_area_content {
+                    border: $border;
+                    display: flex;
+                    gap: 30px;
+
+                    ul {
+                        border: $border;
+                        gap: 10px;
+                        display: grid;
+                        li {
+                            border: $border;
+                            position: relative;
+                            .content_item {
+                                border: $border;
+                                align-items: center;
+                                display: flex;
+
+                                .input_text {
+                                    border: $border;
+                                    width: 10px;
+                                    height: 10px;
+                                }
+                                .label_text {
+                                    border: $border;
+                                    font-family: $font_Regular;
+                                    font-size: 12px;
+                                    line-height: 16px;
+                                    color: $brand_color_light;
+                                    margin-left: 5px;
+                                }
+                            }
+                            // inner_input_text start
+                            .inner_area {
+                                gap: 10px;
+                                display: flex;
+                                flex-wrap: wrap;
+                                margin-left: 15px;
+                                margin-top: 10px;
+                                li {
+                                    .content_item {
+                                        border: $border;
+                                        align-items: center;
+                                        display: flex;
+                                        .input_text {
+                                            border: $border;
+                                            width: 10px;
+                                            height: 10px;
+                                        }
+                                        .label_text {
+                                            border: $border;
+                                            font-family: $font_Regular;
+                                            font-size: 12px;
+                                            line-height: 12px;
+                                            color: $brand_color_light;
+                                            margin-left: 5px;
+                                        }
+                                    }
+                                }
+                            }
+                            // inner_input_text end
+                        }
+                    }
+                }
+            }
+            // division_area start
+
+            // division_area end
+
+            // button_area start
+            .button_area {
+                border: $border;
+                gap: 5px;
+                display: flex;
+                flex-wrap: wrap;
+                .button_text {
+                    border: $border;
+                    font-family: $font_Regular;
+                    font-size: 10px;
+                    line-height: 10px;
+                    padding: 5px 8px;
+                    border: 1px solid black;
+                    span {
+                        border: $border;
+                        i {
+                            border: $border;
+                            font-size: 12px;
+                            margin-left: 2px;
+                        }
+                    }
+                }
+                .submit_button {
+                    color: #8260ff;
+                    border-color: #8260ff;
+                    span {
+                        i {
+                            color: #8260ff;
+                        }
+                    }
+                }
+                .reset_button {
+                    color: #ff3737;
+                    border-color: #ff3737;
+                    span {
+                        i {
+                            color: #ff3737;
+                        }
+                    }
+                }
+                .last_number_button {
+                    color: #00a6cf;
+                    border-color: #00a6cf;
+                    span {
+                        i {
+                            color: #00a6cf;
+                        }
+                    }
+                }
+            }
+            // button_area end
+        }
+        // form end
+    }
+}
+// form_area end

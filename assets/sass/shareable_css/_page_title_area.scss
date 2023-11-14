@@ -1,0 +1,28 @@
+// page_title_area start
+.page_title_area{
+    border: $border;
+    // background-color: $brand_color_light;
+    // background: rgb(23, 58, 86);
+    background: linear-gradient(0deg, rgba(23, 58, 86, 1) 0%, rgba(44, 90, 126, 1) 50%);
+
+    padding: 20px 20px 90px 20px;
+    border-radius: 0px 0px 30px 30px;
+    .title_area_content {
+        .title_text {
+            border: $border;
+            color: $white;
+            font-family: $font_SemiBold;
+            font-size: 20px;
+            line-height: 20px;
+            margin-bottom: 10px;
+        }
+        .title_description_text {
+            border: $border;
+            color: $white;
+            font-family: $font_Regular;
+            font-size: 10px;
+            color: $off_white;
+        }
+    }
+}
+// page_title_area end

@@ -1,0 +1,14 @@
+// full_page start
+.full_page{
+    border: $border;
+    max-width: 575px;
+    margin: auto;
+    background-color: #e3e3e3;
+    height: 100vh;
+    overflow-y: scroll;
+    .full_page_content{
+        border: $border;
+        // background-color: #e3e3e3;
+    }
+}
+// full_page end

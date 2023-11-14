@@ -1,0 +1,28 @@
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+@import "./core/typography";
+@import "./core/reset";
+@import "./core/root";
+@import "./vendors/grid";
+@import "./shareable_css/full_page";
+@import "./shareable_css/page_title_area";
+@import "./shareable_css/card_area_all";
+
+// page_import_start
+
+@import "./pages/contact.scss";
+@import "./pages/index_mobile_versone.scss";
+// page_import_end
+
+// all area main class start (For Responsive)
+.header_area_full,
+.feature_area_full,
+.about_area,
+.servicess_area,
+.contact_us_area_full,
+.map_area_full
+.footer_area
+{
+// display: none;
+}
+// all area main class end
